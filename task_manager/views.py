@@ -78,3 +78,9 @@ class WorkerListView(LoginRequiredMixin, generic.ListView):
     model = Worker
     paginate_by = 5
     queryset = Worker.objects.all().select_related("position")
+
+
+class WorkerDetailView(LoginRequiredMixin, generic.ListView):
+    model = Worker
+
+
