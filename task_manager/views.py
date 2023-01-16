@@ -1,7 +1,11 @@
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render
+from django.views import generic
 
 from task_manager.models import TaskType, Task, Position, Worker
 
+@login_required
 def index(request):
     num_task_types = TaskType.objects.count()
     num_tasks = Task.objects.count()
@@ -20,5 +24,11 @@ def index(request):
     }
 
     return render(request, "task_manager/index.html", context=context)
+
+class TaskTypeListView(LoginRequiredMixin, generic.ListView):
+    model = TaskType
+    context_object_name = "task_type_list"
+    template_name = "task_manager/task_type_list.html"
+    paginate_by = 5
 
 
