@@ -84,3 +84,9 @@ class WorkerDetailView(LoginRequiredMixin, generic.ListView):
     model = Worker
 
 
+class WorkerCreateView(LoginRequiredMixin, generic.CreateView):
+    model = Worker
+    fields = "__all__"
+    success_url = reverse_lazy("task_manager:worker-list")
+
+
