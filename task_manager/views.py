@@ -74,3 +74,6 @@ class PositionDeleteView(LoginRequiredMixin, generic.DeleteView):
     success_url = reverse_lazy("task_manager:position-list")
 
 
+class WorkerListView(LoginRequiredMixin, generic.ListView):
+    model = Worker
+    paginate_by = 5
