@@ -101,4 +101,7 @@ class WorkerUpdateView(LoginRequiredMixin, generic.UpdateView):
     success_url = reverse_lazy("task_manager:worker-list")
 
 
-
+class TaskListView(LoginRequiredMixin, generic.ListView):
+    model = Task
+    paginate_by = 5
+    queryset = Task.objects.all().select_related("task_type").prefetch_related("assignees")
