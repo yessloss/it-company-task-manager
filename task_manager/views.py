@@ -105,3 +105,7 @@ class TaskListView(LoginRequiredMixin, generic.ListView):
     model = Task
     paginate_by = 5
     queryset = Task.objects.all().select_related("task_type").prefetch_related("assignees")
+
+
+class TaskDetailView(LoginRequiredMixin, generic.DetailView):
+    model = Task
