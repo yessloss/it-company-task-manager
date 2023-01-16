@@ -20,7 +20,7 @@ def index(request):
         "num_task_types": num_task_types,
         "num_tasks": num_tasks,
         "num_positions": num_positions,
-        "num_workers" : num_workers,
+        "num_workers": num_workers,
         "num_visits": num_visits + 1,
     }
 
@@ -53,7 +53,7 @@ class TaskTypeDeleteView(LoginRequiredMixin, generic.DeleteView):
 class PositionListView(LoginRequiredMixin, generic.ListView):
     model = Position
     context_object_name = "position_list"
-    template_name = "task_manager/position-list.html"
+    template_name = "task_manager/position_list.html"
     paginate_by = 5
 
 
