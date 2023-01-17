@@ -46,3 +46,6 @@ class Task(models.Model):
                 f"{self.deadline} "
                 f"{self.is_completed} "
                 f"{self.priority}")
+
+    def get_absolute_url(self):
+        return reverse("task_manager:task_detail", kwargs={"pk": self.pk})
