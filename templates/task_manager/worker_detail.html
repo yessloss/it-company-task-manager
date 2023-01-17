@@ -15,10 +15,9 @@
   <p><strong>First name:</strong> {{ worker.first_name }}</p>
   <p><strong>Last name:</strong> {{ worker.last_name }}</p>
   <p><strong>Position:</strong> {{ worker.position.name }}</p>
-  <p><strong>Is staff:</strong> {{ driver.is_staff }}</p>
 
   <div class="ml-3">
-    <h4>Taks</h4>
+    <h4>Tasks</h4>
 
     {% for task in worker.assignees.all %}
         <hr>
