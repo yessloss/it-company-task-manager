@@ -27,6 +27,7 @@ def index(request):
 
     return render(request, "task_manager/index.html", context=context)
 
+
 class TaskTypeListView(LoginRequiredMixin, generic.ListView):
     model = TaskType
     context_object_name = "task_type_list"
@@ -45,6 +46,7 @@ class TaskTypeListView(LoginRequiredMixin, generic.ListView):
                 name__icontains=form.cleaned_data["name"]
             )
         return self.queryset
+
 
 class TaskTypeCreateView(LoginRequiredMixin, generic.CreateView):
     model = TaskType
@@ -65,6 +67,7 @@ class TaskTypeDeleteView(LoginRequiredMixin, generic.DeleteView):
 
 class PositionListView(LoginRequiredMixin, generic.ListView):
     model = Position
+    queryset = Position.objects.all()
     context_object_name = "position_list"
     template_name = "task_manager/position_list.html"
     paginate_by = 5
