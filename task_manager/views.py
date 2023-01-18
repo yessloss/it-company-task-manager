@@ -30,6 +30,7 @@ def index(request):
 
 class TaskTypeListView(LoginRequiredMixin, generic.ListView):
     model = TaskType
+    queryset = TaskType.objects.all()
     context_object_name = "task_type_list"
     template_name = "task_manager/task_type_list.html"
     paginate_by = 5
