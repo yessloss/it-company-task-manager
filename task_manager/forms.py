@@ -1,5 +1,4 @@
 from django.contrib.auth import get_user_model
-from django.core.exceptions import ValidationError
 
 from task_manager.models import Task
 from django import forms
@@ -14,3 +13,7 @@ class TaskForm(forms.ModelForm):
     class Meta:
         model = Task
         fields = "__all__"
+
+
+class TaskTypeSearchForm(forms.Form):
+    name = forms.CharField(max_length=255, required=False)
