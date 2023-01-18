@@ -7,18 +7,18 @@ class TaskType(models.Model):
     name = models.CharField(max_length=255)
 
     def __str__(self):
-        return {self.name}
+        return self.name
 
 
 class Position(models.Model):
     name = models.CharField(max_length=255)
 
     def __str__(self):
-        return {self.name}
+        return self.name
 
 
 class Worker(AbstractUser):
-    position = models.ForeignKey(Position, on_delete=models.CASCADE)
+    position = models.ForeignKey(Position, on_delete=models.CASCADE, null=True)
 
     class Meta:
         verbose_name = "worker"
@@ -41,7 +41,7 @@ class Task(models.Model):
     deadline = models.DateTimeField()
     is_completed = models.BooleanField()
     priority = models.CharField(max_length=255, choices=PRIORITY)
-    task_type = models.ForeignKey(TaskType, on_delete=models.CASCADE, )
+    task_type = models.ForeignKey(TaskType, on_delete=models.CASCADE)
     assignees = models.ManyToManyField(Worker, related_name="staff")
 
     def __str__(self):
