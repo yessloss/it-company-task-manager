@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views import generic
 
-from task_manager.forms import TaskTypeSearchForm, PositionSearchForm
+from task_manager.forms import TaskTypeSearchForm, PositionSearchForm, WorkerSearchForm
 from task_manager.models import TaskType, Task, Position, Worker
 
 @login_required
@@ -78,7 +78,7 @@ class PositionListView(LoginRequiredMixin, generic.ListView):
         form = PositionSearchForm(self.request.GET)
         if form.is_valid():
             return self.queryset.filter(
-                model__icontains=form.cleaned_data["name"]
+                name__icontains=form.cleaned_data["name"]
             )
         return self.queryset
 
@@ -104,6 +104,19 @@ class WorkerListView(LoginRequiredMixin, generic.ListView):
     model = Worker
     paginate_by = 5
     queryset = Worker.objects.all().select_related("position")
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(WorkerListView, self).get_context_data(**kwargs)
+        context["search_form"] = WorkerSearchForm()
+        return context
+
+    def get_queryset(self):
+        form = WorkerSearchForm(self.request.GET)
+        if form.is_valid():
+            return self.queryset.filter(
+                username__icontains=form.cleaned_data["username"]
+            )
+        return self.queryset
 
 
 class WorkerDetailView(LoginRequiredMixin, generic.ListView):
