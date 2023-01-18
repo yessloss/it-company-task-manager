@@ -25,3 +25,7 @@ class PositionSearchForm(forms.Form):
 
 class WorkerSearchForm(forms.Form):
     username = forms.CharField(max_length=255, required=False)
+
+
+class TaskSearchForm(forms.Form):
+    name = forms.CharField(max_length=255, required=False)
