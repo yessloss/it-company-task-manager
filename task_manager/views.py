@@ -126,7 +126,7 @@ class WorkerListView(LoginRequiredMixin, generic.ListView):
         return self.queryset
 
 
-class WorkerDetailView(LoginRequiredMixin, generic.ListView):
+class WorkerDetailView(LoginRequiredMixin, generic.DetailView):
     model = Worker
 
 
