@@ -1,5 +1,52 @@
 {% extends "base.html" %}
 {% load crispy_forms_filters %}
+<body>
+
+    <header class="header-global">
+        <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary pt-4 navbar-dark">
+            <div class="container position-relative">
+                <div class="navbar-collapse collapse me-auto" id="navbar_global">
+                    <div class="navbar-collapse-header">
+                        <div class="row">
+                            <div class="col-6 collapse-brand">
+                                <a href="/">
+                                    <img src="{{ ASSETS_ROOT }}/img/brand/light.svg" alt="Volt logo">
+                                </a>
+                            </div>
+                            <div class="col-6 collapse-close">
+                                <a href="#navbar_global" class="fas fa-times" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="close" aria-label="Toggle navigation"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                        {% if user.is_authenticated %}
+                          <li class="list-group-item">User: <a href="{{ user.get_absolute_url }}">{{ user.get_username }}</a></li>
+                          <li class="list-group-item"><a href="{% url 'logout'%}?next={{request.path}}">Logout</a></li>
+                        {% else %}
+                          <li class="list-group-item"><a href="{% url 'login'%}?next={{request.path}}">Login</a></li>
+                        {% endif %}
+                        <li class="nav-item me-2">
+                            <a href="{% url 'task_manager:index' %}" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a href="{% url 'task_manager:position_list' %}" class="nav-link">Position List</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a href="{% url 'task_manager:task_list' %}" class="nav-link">Task list</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a href="{% url 'task_manager:task_type_list' %}" class="nav-link">Task Type List</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a href="{% url 'task_manager:worker_list' %}" class="nav-link">Workers list</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
 
 {% block content %}
   <h1>
