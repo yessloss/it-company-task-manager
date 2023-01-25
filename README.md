@@ -1,12 +1,27 @@
-# it-company-task-manager
-If you want use this task manager:
+# IT Company Task Manager
+IT manager is a convenient manager for any IT company. You can track your tasks, create new ones and delete them as well.
 
-Username: loss
+in this line add url for deploy project, when i deploy it
 
-Password: 1234
+# If you want to install this project:
 
+git clone https://github.com/yessloss/it-company-task-manager.git
 
-What you can do it in this task manager:
+cd IT_company_task_manager
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py runserver
+
+# What you can do it in this task manager:
 
 1 - Create, update and delete positions, tasks, task types and your workers.
 
@@ -14,8 +29,21 @@ What you can do it in this task manager:
 
 3 - You can see count positions, workers, task types and tasks.
 
-4 - All functional you can see only if you login.
+4 - All functional you can see only if you log in.
 
 5 - You can fast search all of you need in search form.
 
 6 - You have header and sidebar, so you can easy navigate the site.
+
+# Projec view:
+![Снимок экрана 2023-01-19 в 15.23.00.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.23.00.png)
+![Снимок экрана 2023-01-19 в 15.24.01.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.01.png)
+![Снимок экрана 2023-01-19 в 15.24.15.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.15.png)
+![Снимок экрана 2023-01-19 в 15.24.23.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.23.png)
+![Снимок экрана 2023-01-19 в 15.24.33.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.33.png)
+![Снимок экрана 2023-01-19 в 15.24.40.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.40.png)
+![Снимок экрана 2023-01-19 в 15.24.47.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.47.png)
+![Снимок экрана 2023-01-19 в 15.24.55.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.55.png)
+![Снимок экрана 2023-01-19 в 15.24.58.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.58.png)
+![Снимок экрана 2023-01-19 в 15.25.05.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.25.05.png)
+![Снимок экрана 2023-01-19 в 15.25.10.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.25.10.png)
