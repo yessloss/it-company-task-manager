@@ -5,7 +5,7 @@ in this line add url for deploy project, when i deploy it
 
 # If you want to install this project:
 
-'''
+```
 
  git clone https://github.com/yessloss/it-company-task-manager.git
 
@@ -17,11 +17,14 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
+python manage.py migrate
 
-'''
+python manage.py runserver
+
+```
 
 # What you can do it in this task manager:
-'''
+```
 
 1 - Create, update and delete positions, tasks, task types and your workers.
 
@@ -35,7 +38,7 @@ pip install -r requirements.txt
 
 6 - You have header and sidebar, so you can easy navigate the site.
 
-'''
+```
 
 # Project view:
 Home screen:
