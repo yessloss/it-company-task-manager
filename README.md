@@ -1,7 +1,7 @@
 # IT Company Task Manager
 IT manager is a convenient manager for any IT company. You can track your tasks, create new ones and delete them as well.
 
-in this line add url for deploy project, when i deploy it
+https://it-task-manager-3y7t.onrender.com
 
 # If you want to install this project:
 
