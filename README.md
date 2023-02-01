@@ -43,7 +43,7 @@ python manage.py runserver
 # Project view:
 Home screen:
 
-![Снимок экрана 2023-01-19 в 15.23.00.png](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.23.00.png)
+![Снимок экрана 2023-02-01 в 13.06.27.png](screenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-02-01%20%D0%B2%2013.06.27.png)
 
 Login page:
 
