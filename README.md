@@ -53,36 +53,36 @@ Home screen:
 
 Login page:
 
-![Снимок экрана 2023-01-19 в 15.24.01.png](screenshots%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.01.png)
+![Снимок экрана 2023-01-19 в 15.24.01.png](screenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.01.png)
 
 Worker detail page:
 
-![Снимок экрана 2023-01-19 в 15.24.15.png](screenshots%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.15.png)
+![Снимок экрана 2023-01-19 в 15.24.15.png](screenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.15.png)
 
 Position list page:
 
-![Снимок экрана 2023-01-19 в 15.24.23.png](screenshots%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.23.png)
+![Снимок экрана 2023-01-19 в 15.24.23.png](screenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.23.png)
 
 Update position page:
 
-![Снимок экрана 2023-01-19 в 15.24.33.png](screenshots%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.33.png)
+![Снимок экрана 2023-01-19 в 15.24.33.png](screenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.33.png)
 
 Task list page:
 
-![Снимок экрана 2023-01-19 в 15.24.40.png](screenshots%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.40.png)
+![Снимок экрана 2023-01-19 в 15.24.40.png](screenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.40.png)
 
 Create task page:
 
-![Снимок экрана 2023-01-19 в 15.24.47.png](screenshots%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.47.png)
+![Снимок экрана 2023-01-19 в 15.24.47.png](screenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.47.png)
 
 Task Type list page:
 
-![Снимок экрана 2023-01-19 в 15.24.55.png](screenshots%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.55.png)
+![Снимок экрана 2023-01-19 в 15.24.55.png](screenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.55.png)
 
 Task Type update page:
 
-![Снимок экрана 2023-01-19 в 15.24.58.png](screenshots%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.58.png)
+![Снимок экрана 2023-01-19 в 15.24.58.png](screenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.24.58.png)
 
 Worker list page:
 
-![Снимок экрана 2023-01-19 в 15.25.05.png](screenshots%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.25.05.png)
+![Снимок экрана 2023-01-19 в 15.25.05.png](screenshots%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-01-19%20%D0%B2%2015.25.05.png)
